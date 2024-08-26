@@ -1,0 +1,37 @@
+body {
+    background-color: white; 
+  }
+  form {
+    margin: 0 auto;
+    width: 400px;
+    border: none;
+    background-color:blue;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  label input {
+    width: 90%;
+    display: block;
+    color: #806839;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    border-radius: 10px; 
+    margin: 8px;
+    padding: 8px;
+  }
+  input:focus {
+    background-color: #ffffff;
+    border: 1px solid #b1e1e4;
+  }
+  input[type="submit"] {
+    background-color: green;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+  }
